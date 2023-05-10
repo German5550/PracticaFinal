@@ -1,8 +1,5 @@
 package pkt;
 
-import pktClases.Categorias;
-import pktClases.Productos;
-
 public class Productos {
 
 	// Lista de atributos
