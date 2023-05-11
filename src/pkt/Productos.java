@@ -1,8 +1,5 @@
 package pkt;
 
-import pktClases.Categorias;
-import pktClases.Productos;
-
 public class Productos {
 
 	// Lista de atributos
@@ -92,11 +89,6 @@ public class Productos {
 	public String toString() {
 		return "Producto: " + getId() + ", " + getNombre() + ", " + getDesc() + ", " + getCate() + ", " + getCant()
 				+ ", " + getPrecio() + "\n Total del producto: " + getTotal();
-	}
-
-	public String toFichero() {
-		return getId() + ";" + getNombre() + ";" + getDesc() + ";" + getCate().name() + ";" + getCant() + ";"
-				+ getPrecio();
 	}
 
 }
