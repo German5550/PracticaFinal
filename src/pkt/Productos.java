@@ -12,7 +12,7 @@ public class Productos {
 
 	// Atributo estático
 	private static int autoId = 0;
-
+	
 	// Constructores
 	public Productos() {
 		this.id = ++autoId;
