@@ -2,12 +2,13 @@ package pkt;
 
 public enum Categorias {
 
-	CATA(21,false,0,"Categoría A"),CATB(10,false,5,"Categoría B"),CATC(0,true,0,"Categoría C");
+	CATA(21,false,0,"CategorÃ­a A"),CATB(10,false,5,"CategorÃ­a B"),CATC(0,true,0,"CategorÃ­a C");
 	
 	private float impuesto;
 	private boolean envFrio;
 	private float dto;
 	private String desc;
+
 	
 	Categorias(float impuesto, boolean envFrio, float dto, String desc){
 		this.impuesto = impuesto;
@@ -36,3 +37,4 @@ public enum Categorias {
 	}
 
 }
+
